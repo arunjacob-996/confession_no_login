@@ -4,10 +4,10 @@ from database import add_confession
 st.title("✍️ Submit a Confession")
 st.caption("Your confession is displayed anonymously.")
 
-st.info(
-    "This is a placeholder project. For a production system, "
-    "privacy, moderation, rate limiting, and security should be reviewed."
-)
+# st.info(
+#     "This is a placeholder project. For a production system, "
+#     "privacy, moderation, rate limiting, and security should be reviewed."
+# )
 
 with st.form("confession_form"):
     confession = st.text_area(
